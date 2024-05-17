@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <title>Page Title</title> 
+ </head> 
+ <body> 
+  <title>Page Title</title> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Eslam Bakr - Personal Website</title> 
+  <style>
+  /* استمارة النموذج */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  .name {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .description {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+  .contact-info {
+    font-size: 18px;
+    color: #444;
+    margin-top: 20px;
+  }
+
+  .residence-info {
+    font-size: 18px;
+    color: #444;
+    margin-top: 20px;
+  }
+
+  .services {
+    margin-top: 30px;
+  }
+
+  .services h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .service-item {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .gallery {
+    margin-top: 30px;
+  }
+
+  .gallery h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .gallery img {
+    width: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .social-links {
+    margin-top: 30px;
+  }
+
+  .social-links h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .social-links a {
+    margin: 0 10px;
+    color: #444;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .contact-form {
+    margin-top: 30px;
+    text-align: left;
+  }
+
+  .contact-form h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .contact-form label {
+    font-size: 16px;
+    color: #444;
+  }
+
+  .contact-form input, .contact-form textarea, .contact-form button {
+    width: 95%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+
+  .contact-form textarea {
+    resize: vertical;
+  }
+
+  .contact-form button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .contact-form button:hover {
+    background-color: #555;
+  }
+</style> 
+  <div class="container"> <!-- الصورة الشخصية والاسم --> 
+   <img class="profile-img" src="https://i.postimg.cc/Y09zvqH6/M.png" alt="Profile Picture"> 
+   <div class="name">
+    Eslam Bakr
+   </div> 
+   <div class="description">
+    Welcome to my personal website! I'm passionate about web design and graphic design. Feel free to reach out to me for any inquiries or collaboration opportunities.
+   </div> <!-- المعلومات الأساسية: البريد الإلكتروني، الهاتف، الموقع --> 
+   <div class="contact-info"> 
+    <h2>Contact Information</h2> 
+    <p>Email: eslambakr255@gmail.com</p> 
+    <p>Phone: +2001025166818</p> 
+   </div> 
+   <div class="residence-info"> 
+    <h2>Residence Information</h2> 
+    <p>Location: Egypt, Beheira Governorate, Badr Center</p> 
+   </div> <!-- قسم الخدمات --> 
+   <div class="services"> 
+    <h2>Services</h2> 
+    <ul> 
+     <li class="service-item">Web Design</li> 
+     <li class="service-item">Graphic Design</li> 
+     <li class="service-item">SEO Optimization</li> 
+    </ul> 
+   </div> <!-- معرض الصور --> 
+   <div class="gallery"> 
+    <h2>Gallery</h2> 
+    <img src="https://i.postimg.cc/sDv07t0M/FB-IMG-1705493795624.jpg" alt="Image 1"> 
+    <img src="https://i.postimg.cc/HnPdFZZx/FB-IMG-1659900039252.jpg" alt="Image 2"> 
+    <img src="https://i.postimg.cc/kgSqhyxJ/FB-IMG-1659725110436.jpg" alt="Image 3"> 
+   </div> <!-- روابط وسائل التواصل الاجتماعي --> 
+   <div class="social-links"> 
+    <h2>Social Media</h2> <a href="https://www.facebook.com/profile.php?id=100008128778615">Facebook</a> <a href="#">Twitter</a> <a href="#">Instagram</a> 
+   </div> <!-- نموذج الاتصال --> 
+   <div class="contact-form"> 
+    <h2>Contact Form</h2> 
+    <form action="#" method="POST"> <label for="name">Name:</label>
+     <br> 
+     <input type="text" id="name" name="name" required>
+     <br> <label for="email">Email:</label>
+     <br> 
+     <input type="email" id="email" name="email" required>
+     <br> <label for="message">Message:</label>
+     <br> <textarea id="message" name="message" rows="4" required></textarea>
+     <br> <button type="submit">Send</button> 
+    </form> 
+   </div> 
+  </div> 
+ 
+</body></html>
